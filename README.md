@@ -9,7 +9,7 @@ The following assumes you are working on a project with TypeScript and React.
 ```shell
 npm install -D \
     prettier \
-    @codefreak/prettier-config@^0.1.0 \
+    @codefreak/prettier-config@^0.1.0
     
 ```
 
