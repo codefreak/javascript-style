@@ -33,6 +33,20 @@ Create the file `.eslintrc` with the following content ([more information](https
 }
 ```
 
+### NPM utility scripts
+After installing prettier and eslint you can place the following npm scripts inside your `package.json` to run checks/fixes against ESLint and Prettier. 
+
+```json
+{
+  "scripts": {
+    "lint:eslint": "eslint \"src/**/*.{ts,tsx,js,jsx}\"",
+    "fix:eslint": "eslint --fix \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint:prettier": "prettier --check \"src/**/*.{ts,tsx,js,jsx}\"",
+    "fix:prettier": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\""
+  }
+}
+```
+
 ## Development
 To test out local changes you can use [`npm link`](https://docs.npmjs.com/cli/v7/commands/npm-link) inside `packages/eslint-config` or `packages/prettier-config`.
 Afterwards you have to use `npm link @codefreak/eslint-config` or `npm link @codefreak/prettier-config` in a local (test-)project.
