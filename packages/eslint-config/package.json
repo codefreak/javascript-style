@@ -24,5 +24,9 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "typescript": "^3.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b4ea929003361a721e3aa32c16f57a5ca77177ae"
 }

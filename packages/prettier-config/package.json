@@ -10,5 +10,9 @@
   ],
   "peerDependencies": {
     "prettier": "^2.2.1"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b4ea929003361a721e3aa32c16f57a5ca77177ae"
 }
