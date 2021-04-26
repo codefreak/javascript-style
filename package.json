@@ -3,10 +3,18 @@
   "private": true,
   "description": "Code FREAK JavaScript Code Style Guide Monorepo",
   "repository": "https://github.com/codefreak/javascript",
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
-    "lerna": "^4.0.0"
+    "@codefreak/prettier-config": "^0.1.1",
+    "lerna": "^4.0.0",
+    "prettier": "^2.2.1"
   },
   "scripts": {
-    "publish": "lerna publish"
-  }
+    "publish": "lerna publish",
+    "lint:prettier": "prettier --check packages/**/*.{js,json}",
+    "fix:prettier": "prettier --write packages/**/*.{js,json}"
+  },
+  "prettier": "@codefreak/prettier-config"
 }
