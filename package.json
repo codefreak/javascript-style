@@ -1,8 +1,8 @@
 {
-  "name": "@codefreak/javascript",
+  "name": "@codefreak/javascript-style",
   "private": true,
   "description": "Code FREAK JavaScript Code Style Guide Monorepo",
-  "repository": "https://github.com/codefreak/javascript",
+  "repository": "https://github.com/codefreak/javascript-style",
   "workspaces": [
     "packages/*"
   ],
