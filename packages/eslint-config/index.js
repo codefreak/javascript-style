@@ -28,6 +28,10 @@ module.exports = {
   rules: {
     ...baseRules,
     'no-console': ['error', { allow: ['warn', 'error'] }],
-    'react/jsx-boolean-value': ['error', 'never']
+    'react/jsx-boolean-value': ['warn', 'never'],
+    'react/jsx-curly-brace-presence': [
+      'warn',
+      { props: 'never', children: 'never' }
+    ]
   }
 }
