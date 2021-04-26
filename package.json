@@ -1,0 +1,12 @@
+{
+  "name": "@codefreak/javascript",
+  "private": true,
+  "description": "Code FREAK JavaScript Code Style Guide Monorepo",
+  "repository": "https://github.com/codefreak/javascript",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "publish": "lerna publish"
+  }
+}

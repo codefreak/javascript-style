@@ -1,0 +1,14 @@
+{
+  "name": "@codefreak/prettier-config",
+  "version": "0.1.0",
+  "description": "Code FREAK Javascript Code Styleguide (Prettier Config)",
+  "license": "MIT",
+  "author": "Henning Kasch",
+  "main": "index",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
